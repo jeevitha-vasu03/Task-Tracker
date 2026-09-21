@@ -1,0 +1,203 @@
+            ```css
+            *
+            {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body
+            {
+                min-height: 100vh;
+
+                background: linear-gradient(
+                    135deg,
+                    #1a1a2e 0%,
+                    #16213e 40%,
+                    #0f3460 100%
+                );
+
+                background-attachment: fixed;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                font-family: 'Segoe UI',
+                             Tahoma,
+                             Geneva,
+                             Verdana,
+                             sans-serif;
+
+                padding: 20px;
+            }
+
+            .verify-container
+            {
+                width: 100%;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .glass-card
+            {
+                width: 100%;
+                max-width: 450px;
+
+                background: rgba(255, 255, 255, 0.08);
+
+                border: 1px solid rgba(255, 255, 255, 0.15);
+
+                border-radius: 20px;
+
+                padding: 44px 40px;
+
+                backdrop-filter: blur(12px);
+                -webkit-backdrop-filter: blur(12px);
+
+                text-align: center;
+            }
+
+            .success-icon
+            {
+                width: 64px;
+                height: 64px;
+
+                background: rgba(29, 158, 117, 0.18);
+
+                border: 1px solid rgba(29, 158, 117, 0.35);
+
+                border-radius: 18px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                margin: 0 auto 22px;
+            }
+
+            .success-icon svg
+            {
+                width: 32px;
+                height: 32px;
+            }
+
+            .glass-card h2
+            {
+                color: #ffffff;
+
+                font-size: 24px;
+
+                margin-bottom: 10px;
+            }
+
+            .subtitle
+            {
+                color: rgba(255, 255, 255, 0.55);
+
+                font-size: 14px;
+
+                line-height: 1.6;
+
+                margin-bottom: 24px;
+            }
+
+            .message-box
+            {
+                background: rgba(255, 255, 255, 0.05);
+
+                border: 1px solid rgba(255, 255, 255, 0.10);
+
+                border-radius: 12px;
+
+                padding: 18px;
+
+                margin-bottom: 25px;
+            }
+
+            .message-box p
+            {
+                color: rgba(255, 255, 255, 0.65);
+
+                font-size: 13px;
+
+                line-height: 1.6;
+
+                margin-bottom: 12px;
+            }
+
+            .message-box p:last-child
+            {
+                margin-bottom: 0;
+            }
+
+            .message-box strong
+            {
+                color: rgba(255, 255, 255, 0.9);
+
+                font-weight: 600;
+            }
+
+            .btn-login
+            {
+                display: block;
+
+                width: 100%;
+
+                padding: 13px;
+
+                background: #6366f1;
+
+                border: none;
+
+                border-radius: 10px;
+
+                color: #ffffff;
+
+                font-size: 15px;
+
+                font-weight: 600;
+
+                text-decoration: none;
+
+                cursor: pointer;
+
+                transition:
+                    background 0.2s,
+                    transform 0.1s;
+            }
+
+            .btn-login:hover
+            {
+                background: #4f46e5;
+            }
+
+            .btn-login:active
+            {
+                transform: scale(0.98);
+            }
+
+            .footer-text
+            {
+                color: rgba(255, 255, 255, 0.35);
+
+                font-size: 11px;
+
+                margin-top: 18px;
+            }
+
+            @media (max-width: 480px)
+            {
+                .glass-card
+                {
+                    padding: 35px 25px;
+                }
+
+                .glass-card h2
+                {
+                    font-size: 22px;
+                }
+            }
+            ```
