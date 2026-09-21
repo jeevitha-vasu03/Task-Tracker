@@ -32,7 +32,7 @@
     <span class="err-msg" id="email-err"></span>
 
     <div class="input-group">
-                        <label for="username">username</label>
+                        <label for="username">Username</label>
                         <input type="text" name="username" id="username" required placeholder="Enter the username"
                         oninput="validateusername()"/>
                         <span class="tick-icon" id="username-tick">

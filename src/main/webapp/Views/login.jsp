@@ -30,7 +30,7 @@
                         <form action="/tracker/login" method="post" onsubmit="return handleSubmit()">
 
                         <div class="input-group">
-                            <label for="username">username</label>
+                            <label for="username">Username</label>
                             <input type="text" name="username" id="username" required placeholder="Enter the username"
                             />
                             <span class="tick-icon" id="username-tick">
@@ -54,7 +54,7 @@
                         </svg>
                         </button>
                         </div>
-                       
+
                         <button type="submit">Login</button>
 
                         <div class="register-link">
